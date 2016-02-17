@@ -10,3 +10,5 @@ How do the diagrams help you visualize the branch structure?
 	They help you see what is reachable and what is not depending on where in the structure you are currently at.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	When you merge two branches together, the past commits all become part of the log of the new head.  You can go back in time along the two branches by timestamp, which is why the diagram is drawn the way it is.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	The pros are that you don't have to go in and manually insert and remove lines for the most part.  The cons are that there are times when you are presented with a conflict that could be easily resolved with human eyes.
