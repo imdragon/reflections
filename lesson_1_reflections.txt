@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The comparison between the two files makes it easy to spot a difference right away as it will only pull out the portions that have changes.  Normally, by doing a side-by-side comparison you wouldn't always catch a difference if you were having to review a larger document, much less hundreds of line of code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would be easier to discard changes that I had made that might have done more harm than good.  Allowing me to go back to an older version of my code would also let me get back to a working point without risking that there were be junk code laying around somewhere.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When you choose when to save you have complete control of what is being saved when and where, that is a double edged sword.  On one hand you can make logical breaks in saving code, but on the other, you can bundle up unrelated changes which could make reverting to the last working iteration more difficult.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think that they do this because it may have been created with that purpose in mind.  Git keeps track of changes in a directory while other options just focus on the file being worked on individually.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log will allow me to view the history of commits for a repository and see what the messages are.  I can use the diff command to compare two commits and see what has been added and removed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You could also use a diff with a working version to find out what went wrong.  With the ability to jump around to different versions, there should be no more fear about breaking something that already works.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using it for my next app project.

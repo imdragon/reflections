@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	You create a hidden file that will track commits for that repository.  You need to do this in order to start tracking changes to your files.
