@@ -1,1 +1,2 @@
 When would you want to create a remote repository rather than keeping all your work local?
+  You would want to do this most of the time, as it would give you the ability to work from more than one machine and also provide a backup of all work that you are doing in case something were to happen to your local repository.
