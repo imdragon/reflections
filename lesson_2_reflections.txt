@@ -8,3 +8,5 @@ What are some situations when branches would be helpful in keeping your history 
 	When you want to try something new without touching your original code, that is a good time to branch out.  You history would be organized as any new bugs you introduce will not affect your finished product and you can address them on the side.  Branches help remove the fear of introducing new features and breaking your code.
 How do the diagrams help you visualize the branch structure?
 	They help you see what is reachable and what is not depending on where in the structure you are currently at.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	When you merge two branches together, the past commits all become part of the log of the new head.  You can go back in time along the two branches by timestamp, which is why the diagram is drawn the way it is.
