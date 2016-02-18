@@ -4,3 +4,5 @@ Why might you want to always pull changes manually rather than having Git automa
 	You maintain control and may be working on something that is not ready to be pushed to the remote.  In keeping manual control of updates, you have the option of when to open the flood gates and also are aware of issues as they happen instead of them happening when you are not aware.
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 	Forks is the way that GitHub clones a repository and retains a reference to the original owner.  Clones are how you copy a repository to your computer or another directory on your computer.  Branches are different paths on the master which can be merged back later consolidating changes.
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	The benefit of this is that you can see what other people are working on and also have the most up to date version of everything if you are without internet access for some time.
